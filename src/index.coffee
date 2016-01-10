@@ -86,7 +86,7 @@ filter = (torrents, query, options, callback) ->
     else
       torrent['quality'] = null
 
-    if torrent['rewritename'].indexOf(query) >= 0 && torrent['rewritename'].indexOf('vostfr') >= 0
+    if torrent['rewritename'].indexOf(query) >= 0 && (torrent['rewritename'].indexOf('vostfr') >= 0 || torrent['rewritename'].indexOf('multi') >= 0)
       if options.length > 0
         if torrent['rewritename'].indexOf(options.toLowerCase()) >= 0
           updateTorrents.push torrent
