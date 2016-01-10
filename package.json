@@ -1,6 +1,6 @@
 {
   "name": "t411-downloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "module to find and download torrent on t411",
   "main": "lib/index.js",
   "scripts": {
