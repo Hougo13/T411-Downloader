@@ -1,4 +1,6 @@
 # t411-downloader
+[![Dependency Status](https://david-dm.org/Hougo13/t411-downloader.svg)](https://david-dm.org/Hougo13/t411-downloader)
+
 npm module to find and download torrent on t411
 ##Install
 ```
