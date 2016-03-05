@@ -1,3 +1,5 @@
+'use strict'
+
 path = require 'path'
 T411 = require 't411'
 EventEmitter =  require 'events'
